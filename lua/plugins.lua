@@ -19,11 +19,18 @@ return require('packer').startup(function()
   use 'kyazdani42/nvim-tree.lua'
   use 'kyazdani42/nvim-web-devicons'
 
-  -- Galaxyline
+  -- Status Line & Bufferline
   use 'glepnir/galaxyline.nvim'
+  use 'akinsho/nvim-bufferline.lua'
 
   -- LSP
   use 'neovim/nvim-lspconfig'
+  use 'onsails/lspkind-nvim'
+  use 'kosayoda/nvim-lightbulb'
+  use 'mfussenegger/nvim-jdtls'
+
+  -- Debugging
+  use 'mfussenegger/nvim-dap'
 
   -- Completion & vsnip
   use 'hrsh7th/nvim-compe'
@@ -31,23 +38,25 @@ return require('packer').startup(function()
 
   -- Treesitter
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  use 'nvim-treesitter/playground'
+  use 'p00f/nvim-ts-rainbow'
 
   -- Telescope
   use 'nvim-lua/popup.nvim'
   use 'nvim-lua/plenary.nvim'
   use 'nvim-telescope/telescope.nvim'
 
-  use 'onsails/lspkind-nvim'
-  use 'kosayoda/nvim-lightbulb'
-  use 'mfussenegger/nvim-jdtls'
-  use 'mfussenegger/nvim-dap'
-
-  -- Colorscheme & Colorizer
+  -- Color
   use 'christianchiarulli/nvcode-color-schemes.vim'
   use 'norcalli/nvim-colorizer.lua'
 
-  --
+  -- GIT
+  use 'lewis6991/gitsigns.nvim'
+  use 'TimUntersberger/neogit'
+
+  -- General Plugins
   use 'kevinhwang91/nvim-bqf'
   use 'unblevable/quick-scope'
   use 'airblade/vim-rooter'
+  use 'windwp/nvim-autopairs'
 end)
