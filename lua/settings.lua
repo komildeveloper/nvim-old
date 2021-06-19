@@ -1,7 +1,7 @@
 vim.o.iskeyword="+=-"                     -- treat dash separated words as a word text object"
--- vim.o.shortmess="c"                  -- Don't pass messages to |ins-completion-menu|.
+-- vim.o.shortmess="c"                    -- Don't pass messages to |ins-completion-menu|.
 
-vim.o.formatoptions="cro"               -- Stop newline continution of comments
+vim.o.formatoptions="cro"                 -- Stop newline continution of comments
 -- vim.o.enable                           -- Enables syntax highlighing
 vim.o.hidden=true                         -- Required to keep multiple buffers open multiple buffers
 vim.o.wrap=false                          -- Display long lines as just one line
