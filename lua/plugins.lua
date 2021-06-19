@@ -59,4 +59,5 @@ return require('packer').startup(function()
   use 'unblevable/quick-scope'
   use 'airblade/vim-rooter'
   use 'windwp/nvim-autopairs'
+  use 'b3nj5m1n/kommentary'
 end)
