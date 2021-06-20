@@ -25,6 +25,7 @@ return require('packer').startup(function()
 
   -- LSP
   use 'neovim/nvim-lspconfig'
+  use 'glepnir/lspsaga.nvim'
   use 'onsails/lspkind-nvim'
   use 'kosayoda/nvim-lightbulb'
   use 'mfussenegger/nvim-jdtls'
