@@ -61,4 +61,5 @@ return require('packer').startup(function()
   use 'airblade/vim-rooter'
   use 'windwp/nvim-autopairs'
   use 'b3nj5m1n/kommentary'
+  use 'mhinz/vim-startify'
 end)
