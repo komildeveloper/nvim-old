@@ -16,4 +16,5 @@ require('nv-kommentary')
 
 -- LSP
 require('lsp')
+require('utils')
 require('lsp.lua-ls')
