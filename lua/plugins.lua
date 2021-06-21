@@ -21,7 +21,7 @@ return require('packer').startup(function()
 
   -- Status Line & Bufferline
   use 'glepnir/galaxyline.nvim'
-  use 'akinsho/nvim-bufferline.lua'
+  use 'romgrk/barbar.nvim'
 
   -- LSP
   use 'neovim/nvim-lspconfig'
