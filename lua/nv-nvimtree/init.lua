@@ -61,7 +61,7 @@ local tree_cb = require'nvim-tree.config'.nvim_tree_callback
       ["<C-]>"]          = tree_cb("cd"),
       ["<C-v>"]          = tree_cb("vsplit"),
       ["<C-x>"]          = tree_cb("split"),
-      ["<C-t>"]          = tree_cb("tabnew"),
+     ["<C-t>"]          = tree_cb("tabnew"),
       ["<"]              = tree_cb("prev_sibling"),
       [">"]              = tree_cb("next_sibling"),
       ["<BS>"]           = tree_cb("close_node"),
@@ -84,4 +84,4 @@ local tree_cb = require'nvim-tree.config'.nvim_tree_callback
       ["]c"]             = tree_cb("next_git_item"),
       ["-"]              = tree_cb("dir_up"),
       ["q"]              = tree_cb("close"),
-    }
+    } 
