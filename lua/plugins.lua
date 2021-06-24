@@ -18,6 +18,7 @@ return require('packer').startup(function()
   -- Explorer & Devicons
   use 'kyazdani42/nvim-tree.lua'
   use 'kyazdani42/nvim-web-devicons'
+  use 'ryanoasis/vim-devicons'
 
   -- Status Line & Bufferline
   use 'glepnir/galaxyline.nvim'
