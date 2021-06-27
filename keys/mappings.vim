@@ -11,9 +11,9 @@ inoremap kk <Esc>
 inoremap jj <Esc>
 
 " TAB in general mode will move to text buffer
-nnoremap <TAB> gt
+nnoremap <TAB> :tabn<CR>
 " SHIFT-TAB will go back
-nnoremap <S-TAB> gT
+nnoremap <S-TAB> :tabp<CR>
 
 " Better tabbing
 vnoremap < <gv
