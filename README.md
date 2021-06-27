@@ -1,1 +1,1 @@
-# My Neovim configuration written in Lua
+# My Neovim config
