@@ -28,5 +28,5 @@ nnoremap <C-l> <C-w>l
 " Lexplore
 nnoremap <silent> <Leader>e :Lexplore<CR>
 
-" No spaces
+" Space not working in normal mode
 nnoremap <silent> <Space> :noh<CR>
