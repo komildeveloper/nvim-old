@@ -15,4 +15,7 @@ Plug 'jiangmiao/auto-pairs'
 " Best syntax and indentation support
 Plug 'sheerun/vim-polyglot'
 
+" OneDark
+Plug 'joshdick/onedark.vim'
+
 call plug#end()
