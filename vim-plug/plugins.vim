@@ -15,4 +15,8 @@ Plug 'sheerun/vim-polyglot'
 " OneDark
 Plug 'joshdick/onedark.vim'
 
+" Coc.nvim
+" Use release branch (recommend)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
