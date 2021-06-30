@@ -6,9 +6,6 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-" NERDTree file system explorer
-Plug 'scrooloose/nerdtree'
-
 " Autopairs
 Plug 'jiangmiao/auto-pairs'
 
