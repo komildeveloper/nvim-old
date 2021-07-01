@@ -41,4 +41,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Nvim-tree
   Plug 'kyazdani42/nvim-tree.lua'
 
+  " GIT
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'lewis6991/gitsigns.nvim'
+
 call plug#end()
