@@ -6,33 +6,39 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-" Autopairs
-Plug 'jiangmiao/auto-pairs'
+  " Treesitter
+  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
-" Best syntax and indentation support
-Plug 'sheerun/vim-polyglot'
+  " Autopairs
+  Plug 'jiangmiao/auto-pairs'
 
-" OneDark
-Plug 'joshdick/onedark.vim'
+  " Colorscheme
+  Plug 'christianchiarulli/nvcode-color-schemes.vim'
 
-" Coc.nvim
-" Use release branch (recommend)
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " Galaxyline
+  Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
+  Plug 'kyazdani42/nvim-web-devicons' " lua
 
-" Colorizer
-Plug 'norcalli/nvim-colorizer.lua'
+  " Barbar
+  Plug 'romgrk/barbar.nvim'
 
-" Airline
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+  " Coc.nvim
+  " Use release branch (recommend)
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Commenrary
-Plug 'tpope/vim-commentary'
+  " Colorizer
+  Plug 'norcalli/nvim-colorizer.lua'
 
-" Ranger
-Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+  " Commenrary
+  Plug 'tpope/vim-commentary'
 
-" Snippets
-Plug 'honza/vim-snippets'
+  " Ranger
+  Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+
+  " Snippets
+  Plug 'honza/vim-snippets'
+
+  " Nvim-tree
+  Plug 'kyazdani42/nvim-tree.lua'
 
 call plug#end()
