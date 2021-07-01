@@ -22,4 +22,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Colorizer
 Plug 'norcalli/nvim-colorizer.lua'
 
+" Airline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Commenrary
+Plug 'tpope/vim-commentary'
+
 call plug#end()
