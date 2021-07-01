@@ -5,5 +5,12 @@
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
+  },
+
+  "prettier.printWidth": 80,
+  "prettier.semi": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.jsxSingleQuote": true
 }
