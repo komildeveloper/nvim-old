@@ -32,4 +32,7 @@ Plug 'tpope/vim-commentary'
 " Ranger
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
+" Snippets
+Plug 'honza/vim-snippets'
+
 call plug#end()
