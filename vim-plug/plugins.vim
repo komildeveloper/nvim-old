@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
 
   " Colorscheme
-  Plug 'christianchiarulli/nvcode-color-schemes.vim'
+  Plug 'folke/tokyonight.nvim'
 
   " Galaxyline
   Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
