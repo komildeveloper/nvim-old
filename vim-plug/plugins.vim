@@ -19,4 +19,7 @@ Plug 'joshdick/onedark.vim'
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Colorizer
+Plug 'norcalli/nvim-colorizer.lua'
+
 call plug#end()
