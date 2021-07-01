@@ -13,12 +13,6 @@
     "jsonc",
     "python"
   ],
-  "explorer.width": 30,
-  "explorer.icon.enableNerdfont": true,
-  "explorer.keyMappings.global": {
-    "<cr>": ["expandable?", "expand", "open"],
-    "v": "open:vsplit"
-  },
 
   // Prettier
   "prettier.printWidth": 80,
