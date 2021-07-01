@@ -1,6 +1,19 @@
 {
   // Format On Save
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "javascriptreact",  "typescript", "typescriptreact", "graphql", "prisma", "html", "yaml",  "json", "python"],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "graphql",
+    "prisma",
+    "html",
+    "yaml",
+    "jsonc",
+    "python"
+  ],
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.keyMappings.global": {
@@ -17,5 +30,15 @@
   "prettier.jsxSingleQuote": true,
 
   // Stylelintplus
-  "stylelintplus.cssInJs": true
+  "stylelintplus.cssInJs": true,
+
+  // HTML-CSS Support
+  "html-css-support.enabledLanguages": [
+    "html",
+    "vue",
+    "blade",
+    "htmldjango",
+    "typescriptreact",
+    "javascriptreact"
+  ]
 }
