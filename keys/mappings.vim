@@ -30,3 +30,6 @@ nnoremap <silent> <Leader>e :Lexplore<CR>
 
 " Space not working in normal mode
 nnoremap <silent> <Space> :noh<CR>
+
+nnoremap <space>/ :Commentary<CR>
+vnoremap <space>/ :Commentary<CR>
