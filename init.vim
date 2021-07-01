@@ -10,3 +10,4 @@ source $HOME/.config/nvim/plug-config/nvim-tree.vim
 lua require'plug-colorizer'
 lua require'treesitter'
 lua require'tokyonightline'
+lua require'git-signs'
