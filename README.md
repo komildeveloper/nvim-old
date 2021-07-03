@@ -1,6 +1,6 @@
 # My Neovim config written in Lua
 
-# Install My Config
+Install My Config
 
 ## Step 1
 
