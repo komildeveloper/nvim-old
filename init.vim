@@ -6,6 +6,7 @@ source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/snippets.vim
 source $HOME/.config/nvim/themes/tokyonight.vim
 source $HOME/.config/nvim/plug-config/nvim-tree.vim
+source $HOME/.config/nvim/keys/which-key.vim
 
 lua require'plug-colorizer'
 lua require'treesitter'

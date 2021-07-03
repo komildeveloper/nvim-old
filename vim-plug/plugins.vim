@@ -45,4 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-lua/plenary.nvim'
   Plug 'lewis6991/gitsigns.nvim'
 
+  " Which-Key
+  Plug 'liuchengxu/vim-which-key'
+
 call plug#end()
