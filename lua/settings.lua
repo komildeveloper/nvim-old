@@ -1,11 +1,11 @@
 vim.cmd('set iskeyword+=-') -- treat dash separated words as a word text object"
---vim.opt.shortmess:append("c") -- Don't pass messages to |ins-completion-menu|.
+-- vim.opt.shortmess:append("c") -- Don't pass messages to |ins-completion-menu|.
 vim.cmd('set inccommand=split') -- Make substitution work in realtime
 vim.o.hidden = true -- Required to keep multiple buffers open multiple buffers
 vim.o.title = true
 TERMINAL = vim.fn.expand('$TERMINAL')
-vim.cmd('let &titleold="'..TERMINAL..'"')
-vim.o.titlestring="%<%F%=%l/%L - nvim"
+vim.cmd('let &titleold="' .. TERMINAL .. '"')
+vim.o.titlestring = "%<%F%=%l/%L - nvim"
 vim.wo.wrap = true -- Display long lines as just one line
 vim.cmd('set whichwrap+=<,>,[,],h,l') -- move to next line with theses keys
 vim.o.pumheight = 10 -- Makes popup menu smaller
@@ -20,9 +20,9 @@ vim.o.splitright = true -- Vertical splits will automatically be to the right
 vim.o.conceallevel = 0 -- So that I can see `` in markdown files
 vim.opt.tabstop = 4 -- Insert 2 spaces for a tab
 vim.opt.shiftwidth = 4 -- Change the number of space characters inserted for indentation
---vim.opt.softtabstop = 4
+-- vim.opt.softtabstop = 4
 vim.opt.expandtab = true -- Converts tabs to spaces
---vim.o.completeopt = "menuone,noselect"
+-- vim.o.completeopt = "menuone,noselect"
 vim.bo.smartindent = true -- Makes indenting smart
 vim.wo.relativenumber = true -- set relative number
 vim.wo.cursorline = true -- set highlighting of the current line
