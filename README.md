@@ -1,4 +1,4 @@
-# Install My Config
+## Install My Config
 
 Step 1
 
