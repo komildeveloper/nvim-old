@@ -262,4 +262,4 @@ gls.short_line_left[1] = {
 -- augroup UserGitSignColumnColor
 --   autocmd!
 --   autocmd ColorScheme * call s:my_bookmark_color()
--- augroup END 
+-- augroup END
