@@ -1,5 +1,5 @@
-vim.cmd('set iskeyword+=-') -- treat dash separated words as a word text object" 
-vim.opt.shortmess:append("c") -- Don't pass messages to |ins-completion-menu|.
+vim.cmd('set iskeyword+=-') -- treat dash separated words as a word text object"
+--vim.opt.shortmess:append("c") -- Don't pass messages to |ins-completion-menu|.
 vim.cmd('set inccommand=split') -- Make substitution work in realtime
 vim.o.hidden = true -- Required to keep multiple buffers open multiple buffers
 vim.o.title = true
@@ -22,7 +22,7 @@ vim.opt.tabstop = 4 -- Insert 2 spaces for a tab
 vim.opt.shiftwidth = 4 -- Change the number of space characters inserted for indentation
 --vim.opt.softtabstop = 4
 vim.opt.expandtab = true -- Converts tabs to spaces
-vim.o.completeopt = "menuone,noselect"
+--vim.o.completeopt = "menuone,noselect"
 vim.bo.smartindent = true -- Makes indenting smart
 vim.wo.relativenumber = true -- set relative number
 vim.wo.cursorline = true -- set highlighting of the current line
