@@ -1,10 +1,10 @@
-local initializationOptions = {
+--[[ local initializationOptions = {
     documentFormatting = true,
     hover = true,
     documentSymbol = true,
     codeAction = true,
     completion = true
-}
+} ]]
 
 -- python
 local flake8 = {
@@ -23,11 +23,16 @@ local luaFormat = {
     formatStdin = true
 }
 
+local prettier = {
+    formatCommand = "prettier --stdin-filepath ${INPUT}",
+    formatStdin = true
+}
+
 require'lspconfig'.efm.setup {
-    init_options = {initializationOptions},
+    init_options = {documentFormatting = true},
     filetypes = {"lua", "python", "javascript", "javascriptreact"},
     settings = {
         rootMarkers = {".git/"},
-        languages = {lua = {luaFormat}, python = {flake8, isort, yapf}, javascript={}, javascriptreact = {}}
+        languages = {lua = {luaFormat}, python = {flake8, isort, yapf}, javascript={prettier}, javascriptreact = {prettier}}
     }
 }
