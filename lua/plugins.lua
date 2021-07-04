@@ -11,7 +11,7 @@ if fn.empty(fn.glob(install_path)) > 0 then
     execute 'packadd packer.nvim'
 end
 
-return require('packer').startup(function()
+return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
@@ -66,4 +66,5 @@ return require('packer').startup(function()
     use 'windwp/nvim-autopairs'
     use 'b3nj5m1n/kommentary'
     use 'mhinz/vim-startify'
+    use 'lukas-reineke/indent-blankline.nvim'
 end)
