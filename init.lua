@@ -14,6 +14,8 @@ require('nv-nvim-autopairs')
 require('nv-kommentary')
 require('nv-startify')
 require('nv-utils')
+require('nv-which-key')
+require('nv-telescope')
 
 -- LSP
 require('lsp')
