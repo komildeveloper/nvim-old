@@ -12,10 +12,10 @@ require('nv-galaxyline')
 require('nv-gitsigns')
 require('nv-nvim-autopairs')
 require('nv-kommentary')
-require('nv-startify')
 require('nv-utils')
 require('nv-which-key')
 require('nv-telescope')
+require('nv-dashboard')
 
 -- LSP
 require('lsp')
