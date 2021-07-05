@@ -69,12 +69,14 @@ return require('packer').startup(function(use)
     use 'lewis6991/gitsigns.nvim'
     use 'TimUntersberger/neogit'
 
+    -- Dashboard
+    use 'glepnir/dashboard-nvim'
+
     -- General Plugins
     use 'kevinhwang91/nvim-bqf'
     use 'unblevable/quick-scope'
     use 'airblade/vim-rooter'
     use 'windwp/nvim-autopairs'
     use 'b3nj5m1n/kommentary'
-    use 'mhinz/vim-startify'
     use 'lukas-reineke/indent-blankline.nvim'
 end)
