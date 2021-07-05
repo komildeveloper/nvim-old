@@ -30,15 +30,6 @@ vim.cmd('nnoremap <silent> <C-p> :Lspsaga diagnostic_jump_prev<CR>')
 vim.cmd('nnoremap <silent> <C-n> :Lspsaga diagnostic_jump_next<CR>')
 vim.cmd('nnoremap <space>f <cmd>lua vim.lsp.buf.formatting()<CR>')
 
--- autoformat
---[[ vim.cmd('autocmd BufWritePre *.js lua vim.lsp.buf.formatting_sync(nil, 100)')
-vim.cmd('autocmd BufWritePre *.jsx lua vim.lsp.buf.formatting_sync(nil, 100)')
--- vim.cmd('autocmd FileType java nnoremap ca <Cmd>lua require('jdtls').code_action()<CR>')
-vim.cmd('autocmd BufWritePre *.lua lua vim.lsp.buf.formatting_sync(nil, 100)')
---vim.cmd('autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 100)') ]]
-
-vim.cmd('autocmd BufWritePre *.lua lua vim.lsp.buf.formatting_sync(nil, 100)')
-
 vim.lsp.protocol.CompletionItemKind = {
     "   (Text) ", "   (Method)", "   (Function)",
     "   (Constructor)", " ﴲ  (Field)", "[] (Variable)", "   (Class)",
