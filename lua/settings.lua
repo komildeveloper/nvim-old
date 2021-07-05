@@ -37,3 +37,4 @@ vim.o.updatetime = 300 -- Faster completion
 vim.o.clipboard = "unnamedplus" -- Copy paste between vim and everything else
 vim.cmd('filetype plugin on') -- filetype detection
 vim.o.guifont = "FiraCode Nerd Font:h17"
+vim.o.timeoutlen = 0
