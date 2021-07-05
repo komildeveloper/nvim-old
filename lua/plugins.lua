@@ -51,8 +51,15 @@ return require('packer').startup(function(use)
     use 'nvim-lua/plenary.nvim'
     use 'nvim-telescope/telescope.nvim'
 
-    -- which key
+    -- Which key
     use 'folke/which-key.nvim'
+
+    -- Markdown preview
+    use {
+        'iamcco/markdown-preview.nvim',
+        run = "cd app && npm install",
+        ft = "markdown",
+    }
 
     -- Color
     use 'christianchiarulli/nvcode-color-schemes.vim'
