@@ -24,7 +24,7 @@ return require('packer').startup(function(use)
     use 'ryanoasis/vim-devicons'
 
     -- Status Line & Bufferline
-    use 'glepnir/galaxyline.nvim'
+    use 'hoob3rt/lualine.nvim'
     use 'romgrk/barbar.nvim'
 
     -- LSP
@@ -33,6 +33,7 @@ return require('packer').startup(function(use)
     use 'onsails/lspkind-nvim'
     use 'kosayoda/nvim-lightbulb'
     use 'mfussenegger/nvim-jdtls'
+    use 'kabouzeid/nvim-lspinstall'
 
     -- Debugging
     use 'mfussenegger/nvim-dap'
@@ -58,7 +59,7 @@ return require('packer').startup(function(use)
     use {
         'iamcco/markdown-preview.nvim',
         run = "cd app && npm install",
-        ft = "markdown",
+        ft = "markdown"
     }
 
     -- Color
