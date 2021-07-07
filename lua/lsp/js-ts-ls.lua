@@ -1,1 +1,6 @@
-require'lspconfig'.tsserver.setup {on_attach = require'lsp'.common_on_attach}
+require'lspconfig'.tsserver.setup {
+    on_attach = function(client, bufnr)
+        client.resolved_capabilities.document_formatting = false
+    end,
+    settings = {documentFormatting = false}
+}
