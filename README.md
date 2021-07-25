@@ -5,3 +5,5 @@
 ```
 git clone https://github.com/komildeveloper/nvim ~/.config/nvim
 ```
+
+Open **nvim** and `PackerInstall`
