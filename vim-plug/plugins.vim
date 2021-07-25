@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
 
   " Colorscheme
-  Plug 'folke/tokyonight.nvim'
+  Plug 'christianchiarulli/nvcode-color-schemes.vim'
 
   " Galaxyline
   Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
@@ -47,5 +47,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   " Which-Key
   Plug 'liuchengxu/vim-which-key'
+
+  " Telescope
+  Plug 'nvim-lua/popup.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
+
+  " Dashboard
+  Plug 'glepnir/dashboard-nvim'
 
 call plug#end()
